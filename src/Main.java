@@ -21,7 +21,7 @@ public class Main {
            boolean isIndexCorrect
            white(!isIndexCorrect) {}
         */
-        /*
+
         System.out.println("\nZadanie 1");
 
         boolean isIndexCorrect = false;
@@ -55,7 +55,7 @@ public class Main {
         finally
         {
             System.out.println("Koniec programu");
-        }*/
+        }
 
 
 
@@ -93,12 +93,12 @@ public class Main {
         System.out.println("\nc)\n");
 
         int x = 0, y;
-        Scanner scan = new Scanner(System.in);
+        Scanner scan1 = new Scanner(System.in);
 
         try
         {
             System.out.print("Wpisz liczbę przez którą chcesz podzielić: ");
-            x = Integer.parseInt(scan.next());
+            x = Integer.parseInt(scan1.next());
             y = 1 / x;
         }
         catch (NumberFormatException e)
